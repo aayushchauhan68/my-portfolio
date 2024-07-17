@@ -1,0 +1,96 @@
+/* this is for main page */
+
+main hr{
+    border: 0;
+    background-color:rgb(170, 107, 228);
+    height: 1.2px;
+    margin: 50px 84px;
+}
+
+
+.home{
+    display: flex;
+    justify-content: space-around;
+    margin: 7vw 0;
+    align-items: center;
+}
+.home > div{
+    width: 40%;
+    
+}
+.home-left{
+    font-size: 2rem;
+    
+}
+.home-left .buttons{
+    padding: 50px 0;
+}
+.home-left .btn{
+    padding: 12px;
+    background-color: #0b0e40;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+.home-right img{
+    border-radius: 50%;
+    width: 280px
+}
+.purple{
+    color: rgb(170, 107, 228);
+}
+#element{
+    color: rgb(170, 107, 228);
+}
+.textgray{
+    color: gray;
+}
+
+
+/* this is for about page */
+
+.about{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.about h1{
+    font-size: 1.9rem;
+}
+.about .box{
+    background-color: white;
+    height: 2px;
+    width: 77vw;
+    margin: 56px 0;
+    display: flex;
+}
+.about .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0px 6vw;
+}
+.image-top{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.vertical-title{
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 14px;
+}
+.vertical-desc{
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+}
+
+
